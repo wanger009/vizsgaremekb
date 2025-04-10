@@ -14,23 +14,21 @@ const Footer: React.FC = () => {
               Prémium edzőtermi felszerelések otthoni és kereskedelmi edzőtermekhez. Építsd fel velünk a tökéletes edzőteredet.
             </p>
             <div className="d-flex gap-3 mt-4">
-              <a href="#" className="text-white">
+              <a href="https://www.facebook.com/profile.php?id=61575185637599" className="text-white">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="text-white">
+              <a href="https://www.instagram.com/gymgo313/" className="text-white">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="text-white">
-                <Twitter size={20} />
-              </a>
-              <a href="#" className="text-white">
+              
+              <a href="https://www.youtube.com/@gymgo313" className="text-white">
                 <Youtube size={20} />
               </a>
             </div>
           </div>
           
           <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 className="mb-4">Gyors Linkek</h5>
+            <h5 className="mb-4">Ezek vagyunk mi</h5>
             <ul className="list-unstyled">
               <li className="mb-2">
                 <Link to="/" className="text-white text-decoration-none">Főoldal</Link>
@@ -42,7 +40,7 @@ const Footer: React.FC = () => {
                 <Link to="/about" className="text-white text-decoration-none">Rólunk</Link>
               </li>
               <li className="mb-2">
-                <Link to="/contact" className="text-white text-decoration-none">Kapcsolat</Link>
+                <Link to="/contact" className="text-white text-decoration-none">Csapatunk</Link>
               </li>
             </ul>
           </div>
@@ -69,19 +67,19 @@ const Footer: React.FC = () => {
           </div>
           
           <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 className="mb-4">Kapcsolat</h5>
+            <h5 className="mb-4">Infók</h5>
             <ul className="list-unstyled">
               <li className="mb-3 d-flex">
                 <MapPin size={20} className="me-2" />
-                <span className="text-white">123 Fitness utca, Budapest, Magyarország</span>
+                <span className="text-white">2111, Szada Liget utca 21, Magyarország</span>
               </li>
               <li className="mb-3 d-flex">
                 <Phone size={20} className="me-2" />
-                <span className="text-white">+36 1 234 5678</span>
+                <span className="text-white">06-30-713-9700</span>
               </li>
               <li className="mb-3 d-flex">
                 <Mail size={20} className="me-2" />
-                <span className="text-white">info@gymgo.hu</span>
+                <span className="text-white">gymgo0313@gmail.com</span>
               </li>
             </ul>
           </div>
